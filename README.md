@@ -6,7 +6,6 @@ properly: **safely handling concurrent access to a limited resource in real
 time**. Two users click the same seat within milliseconds — only one should
 get it, cleanly, with no double-booking and no manual cleanup.
 
-Built with an LLM as a coding partner, but every architectural decision —
 the Redis locking strategy, the RabbitMQ ack/nack semantics, the Core/
 Infrastructure boundary — was made and understood deliberately, not accepted
 blindly. See `docs/architecture.md` for the running decision log kept
@@ -125,10 +124,6 @@ default `seatsync` / password from `.env`)
   notification just means a seat looks stale until the next state-changing
   action touches it; the underlying lock state in Redis is unaffected.
 
-If developing locally with a download-manager browser extension (IDM,
-JDownloader, etc.), disable its browser integration — it can intercept the
-PDF receipt response before the app's own JS reads it, surfacing as a
-misleading CORS error in the console.
 
 ## Tests
 
