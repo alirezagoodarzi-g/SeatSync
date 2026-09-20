@@ -1,0 +1,35 @@
+.gitignore# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+backend/SeatSync.Api/logs/
+
+# Node / Vite
+node_modules/
+dist/
+frontend/seatsync-web/dist/
+*.local
+
+# Environment files (secrets) — keep .env.example committed, not real .env
+.env
+.env.*.local
+!.env.production
+
+# Docker
+docker-compose.override.yml
+
+# Test artifacts
+TestResults/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.idea/
+*.swp
+
+# EF Core migrations output is fine to commit — do NOT ignore Migrations/

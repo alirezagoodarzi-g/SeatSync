@@ -1,0 +1,9 @@
+{
+  "name": "Fall sonati Night",
+  "venue": "Blue persian Hall",
+  "dateTime": "2026-11-15T20:00:00Z",
+  "seats": [
+    { "row": "A", "number": 1, "price": 45.00 },
+    { "row": "A", "number": 2, "price": 45.00 }
+  ]
+}

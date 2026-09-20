@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/backend/">
+    <Project Path="backend/SeatSync.Api/SeatSync.Api.csproj" />
+    <Project Path="backend/SeatSync.Core/SeatSync.Core.csproj" />
+    <Project Path="backend/SeatSync.Infrastructure/SeatSync.Infrastructure.csproj" />
+    <Project Path="backend/SeatSync.Tests/SeatSync.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="signalr-test.html" />
+  </Folder>
+</Solution>

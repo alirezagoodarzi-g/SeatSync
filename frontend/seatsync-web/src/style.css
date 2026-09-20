@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+@theme {
+  --color-bg: #0a0e17;
+  --color-surface: #131826;
+  --color-surface-raised: #1b2333;
+  --color-accent: #4c6ef5;
+  --color-accent-hover: #3b5bdb;
+  --color-seat-available: #22c55e;
+  --color-seat-held: #f59e0b;
+  --color-seat-booked: #6b7280;
+  --color-text-primary: #e8eaf0;
+  --color-text-muted: #8b93a7;
+
+  --font-sans: 'Vazirmatn', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+}
